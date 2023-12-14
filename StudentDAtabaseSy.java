@@ -28,7 +28,7 @@ class Student {
 }
 public class StudentDAtabaseSy {
     public static void main(String[] args) {
-        try{
+       
         Scanner sc = new Scanner(System.in);
         HashMap<Integer, Student> database = new HashMap<>();
 
@@ -100,12 +100,10 @@ public class StudentDAtabaseSy {
 
                     default: System.out.println("Invalid Input");
 
-            }
+            
         }
     }
-    catch(Exception e){
-        System.out.println("error: " + e.getMessage()); 
-    }
+   
     }
 }
 
